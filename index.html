@@ -15,3 +15,40 @@
    <img src="Videos/PDP.jpg" width=300 alt="PewDiePie">
    <p>31970288 Subscribers!!!!</p>
 </a>
+
+<div class="video-grid">
+
+    <a href="FTM_video.html" class="video-item">
+       <img src="Videos/indir.jpg" alt="Facebook Musical" width="200">
+       <p>Facebook: The Musical</p>
+    </a>
+
+    <a href="PDP_video.html" class="video-item">
+       <img src="Videos/PDP.jpg" alt="PewDiePie" width="200">
+       <p>PewDiePie - 31M Subscribers!</p>
+    </a>
+
+</div>
+
+<style>
+    .video-grid {
+        display: flex;       /* Elemanları yan yana dizer */
+        flex-wrap: wrap;     /* Ekran daralınca alt satıra geçer (mobilde bozulmaz) */
+        gap: 20px;           /* Videoların arasındaki boşluk */
+        justify-content: flex-start; /* Sola yaslar */
+        padding: 20px;
+    }
+
+    .video-item {
+        text-align: center;  /* Yazıyı resmin altında ortalar */
+        text-decoration: none;
+        color: #0033cc;
+        width: 200px;        /* Videoların genişliğini sabitler */
+    }
+
+    .video-item img {
+        border: 1px solid #ccc; /* Klasik YouTube çerçevesi */
+        padding: 2px;
+        background: white;
+    }
+</style>
