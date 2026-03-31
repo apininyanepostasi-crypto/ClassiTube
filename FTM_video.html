@@ -1,6 +1,20 @@
-<a href="index.html">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_of_YouTube_%282011-2013%29.svg" alt="Ana Sayfaya Git" style="width:100px; border:none;">
+<a href="index.html" class="sol-ust-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_of_YouTube_%282011-2013%29.svg" alt="Ana Sayfa">
 </a>
+
+<style>
+.sol-ust-logo {
+    position: fixed; /* Sayfaya sabitler */
+    top: 10px;       /* Yukarıdan 10 piksel boşluk */
+    left: 10px;      /* Soldan 10 piksel boşluk */
+    z-index: 1000;   /* Diğer öğelerin üzerinde görünmesini sağlar */
+}
+
+.sol-ust-logo img {
+    width: 50px;     /* Fotoğrafın boyutunu buradan ayarlayabilirsiniz */
+    height: auto;
+}
+</style>
 
 <video width="640" height="360" controls>
     <source src="Videos/facebook---the-musical.mp4" type="video/mp4">
